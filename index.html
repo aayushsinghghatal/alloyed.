@@ -1,82 +1,43 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="author" content="ayush">
-        <meta name="description" content="this is homepage of Alloyed">
-        <meta name="google-adsense-account" content="ca-pub-2185936413163959">
-        <meta name="google-site-verification" content="GhmOPY6g0fxmZz-Au0gfVN0JZqSiRhnvr9oUkksQW3E" />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2185936413163959"
-     crossorigin="anonymous"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Alloyed</title>
-        <link rel="icon" type="image/jpg" href="images.topprogramminglanguages/letter-a.png">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <heading class="header">
-            <div class="website_name">
-                <a href="index.html"><img src="images.topprogramminglanguages/letter-a.png" class="website_name_logo"></a>
-                <a href="index.html" class="website_name_text">lloyed</a>
-            </div>
-            <div class="nav">
-                <a class="nav_text invisible" href="index.html">Tech</a>
-                <a class="nav_text invisible" href="index.html">Science</a>
-                <a class="nav_text invisible" href="index.html">Gaming</a>
-                <a class="nav_text invisible" href="index.html">Anime</a>
-                <a class="nav_text follow_us follow_us_invisible" href="index.html">Follow us</a>
-            </div>
-        </heading>
-        <main>
-<!--featuring section-->
-            <div class="featuring_section">
-                <div class="featuring_section_text">
-                    <div class="featuring_section_text_">
-                    <p class="category">Space | Tech</p>
-                    <a href="jwst-1/jwst.html" class="featuring_section_text_h1_">
-                        <h1 class="featuring_section_text_h1">How the James Webb Space Telescope is changing our understanding of the universe</h1></a>
-                    <p class="featuring_section_text_p">The James Webb Space Telescope (JWST) is the most powerful telescope ever built, 
-                        and it is already revolutionizing our understanding of the universe. JWST sees the universe in infrared light, 
-                        which allows it...</p><br>
-                    <a href="jwst-1/jwst.html"><button class="read_more">Read More</button></a>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="card">
+        <div id="search">
+            <input type="text" placeholder="enter city name" spellcheck="false">
+            <button><img src="Icons/search.png"></button>
+        </div>
+        <div id="error">
+            <p>Invalid city name.</p>
+        </div>
+        <div id="weather">
+            <img src="Icons/sun.png" id="weather-icon">
+            <h3 id="condition">--</h3>
+            <h1 id="temp">--°C</h1>
+            <h2 id="city">Mussoorie</h2>
+            <div id="detail">
+                <div id="col">
+                    <img src="Icons/humidity.png">
+                    <div>
+                        <p id="humidity">--%</p>
+                        <p id="p">Humidity</p>
                     </div>
                 </div>
-                <div class="featuring_section_image">
-                    <a href="jwst-1/jwst.html">
-                        <img class="featuring_section_image_img" 
-                        src="https://science.nasa.gov/_ipx/w_1536&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/10/webb-stsci-01hbbmj8r6htxp5w1evej24d64.jpg%3Fw=2000">
-                    </a>
+                <div id="col">
+                    <img src="Icons/wind.png">
+                    <div>
+                        <p id="wind">--km/h</p>
+                        <p id="p">Wind Speed</p>
+                    </div>
                 </div>
             </div>
-<!--highlight section-->
-            <div>
-            <div class="highlight_section">
-                <div class="highlight_section_box highlight_section_box_1">
-                    <p class="category">Space | Tech</p>
-                    <A href="jwst-1/nfts.html" class="text_decoration">
-                        <h1 class="highlight_section_box_h1">NFTs: Unlocking the Future of Digital Ownership</h1></A>
-                    <!--<p>In the dynamic intersection of technology, creativity, and blockchain innovation, 
-                        Non-Fungible Tokens (NFTs) have emerged as a seismic force, redefining the landscape of digital ownership and...
-                        <a href="jwst-1/nfts.html">read more</a></p>-->
-                </div>
-                <div class="highlight_section_box highlight_section_box_2">
-                    <p class="category">Space | Tech</p>
-                    <A href="jwst-1/nfts.html" class="text_decoration">
-                        <h1 class="highlight_section_box_h1">NFTs: Unlocking the Future of Digital Ownership</h1></A>
-                    <!--<p>In the dynamic intersection of technology, creativity, and blockchain innovation, 
-                        Non-Fungible Tokens (NFTs) have emerged as a seismic force, redefining the landscape of digital ownership and...
-                        <a href="jwst-1/nfts.html">read more</a></p>-->
-                </div>
-                <div class="highlight_section_box highlight_section_box_3">
-                    <p class="category">Space | Tech</p>
-                    <A href="jwst-1/nfts.html" class="text_decoration">
-                        <h1 class="highlight_section_box_h1">NFTs: Unlocking the Future of Digital Ownership</h1></A>
-                    <!--<p>In the dynamic intersection of technology, creativity, and blockchain innovation, 
-                        Non-Fungible Tokens (NFTs) have emerged as a seismic force, redefining the landscape of digital ownership and...
-                        <a href="jwst-1/nfts.html">read more</a></p>-->
-                </div>
-            </div>
-            </div>
-        </main>
-    </body>  
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
 </html>
